@@ -1,0 +1,106 @@
+#send_mes{
+    width: 700px;
+    height: 70px;
+    margin-left: 790px;
+    margin-top: 470px;
+}
+#send_mes input{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+}
+#btn_6{
+    width: 55px;
+    height: 55px;
+    background-color: #f8f9fb;
+    background-image: url("./images/12_15_82.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #e6e9ec;
+}
+#txt_box{
+    border: 1px solid #e6e9ec;
+    width: 400px;
+    height: 55px;
+}
+/*chat*/
+#message{
+    width: 530px;
+    height: 450px;
+    margin-left: 750px;
+    margin-top: -540px;
+    position: fixed;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.txt{
+    font-size: 12px;
+}
+.info{
+    float: right;
+}
+#message .before_tue{
+    width: 530px;
+    margin-left: 750px;
+    height: 350px;
+    border:1px solid #b7c0cd;
+}
+.chatting{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.chatting .txt{
+    margin-top: 10px;
+    word-break: keep-all;
+    margin-left: 57px;
+    color: #858890;
+}
+.chatting img{
+    float: left;
+    margin-right: 10px;
+}
+.des{
+    width: 480px;
+    height: 100px;
+}
+.des .info{
+    float: left;
+}
+.des .info p{
+    display: inline-block;
+}
+.time_2{
+    color: grey;
+}
+#tuesday{
+    margin-top: 70px;
+    border-top: 1px solid #b7c0cd;
+}
+.image_box{
+    margin-left: 57px;
+    margin-top: 10px;
+}
+#new_mes{
+    border-top: 1px solid #2399f1;
+    margin-top: 150px;
+}
+#week{
+    width: 80px;
+    height: 13px;
+    color: #858890;
+    background-color: white;
+    margin-top: -12px;
+    margin-left: 230px;
+    text-align: center;
+}
+#n_s{
+    width: 150px;
+    height: 13px;
+    color: #2399f1;
+    background-color: white;
+    margin-top: -12px;
+    margin-left: 200px;
+    text-align: center;
+}

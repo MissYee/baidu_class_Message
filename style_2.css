@@ -1,0 +1,151 @@
+#choose_chats{
+    width: 400px;
+    border: 1px solid #e6e9ec;
+    border-left: none;
+    border-top: none;
+    height: 100%;
+    position: fixed;
+    margin-left: 350px;
+}
+#search{
+    height: 70px;
+    border-bottom: 1px solid #e6e9ec;
+    text-align: center;
+}
+#search input{
+    border-style: none;
+    font-size: 16px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+/*隐藏滚动条但是仍然保证有滚动效果，但是有的浏览器不支持*/
+.contacts{
+    height: 100%;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/*一个方格内的样式*/
+.contacts .chat_person{
+    height: 110px;
+    border-bottom: 1px solid #e6e9ec;
+    overflow: hidden;
+    padding: 15px 30px 15px 30px;
+}
+.chat_person:hover{
+    border-left: 3px solid #2399f1;
+}
+.contacts .user{
+    height: 30px;
+    width: 140px;
+    float: right;
+    margin-right: 130px;
+    color: grey;
+    font-size: 12px;
+}
+.con_name{
+    color: #2399f1;
+    font-size: 17px;
+    display: inline-block;
+}
+.time{
+    float: right;
+    margin-top: -50px;
+    color: grey;
+}
+.abstract{
+    width: 330px;
+    height: 35px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-top: 25px;
+    word-break: break-word;
+}
+/*chat_info导航条的style*/
+#toolbar{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #e6e9ec;
+    margin-left: 750px;
+}
+#toolbar p{
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+#toolbar img{
+    margin-left: 10px;
+}
+#tools input{
+    width: 35px;
+    height: 30px;
+    border: 1px solid #e6e9ec;
+    display: inline-block;
+    margin-right: -4px;
+}
+#tools{
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: -25px;
+}
+#tol_left{
+    width: 120px;
+    height: 25px;
+    border-right: 1px solid #e6e9ec;
+
+}
+#tol_right {
+    width: 150px;
+    height: 25px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 45px;
+}
+#tol_right input{
+    float: right;
+    margin-top: -22px;
+}
+#tol_right p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+.le{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ri{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#btn_1{
+    background-image: url("./images/12_15_18.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fb;
+}
+#btn_2{
+    background-image: url("./images/12_15_20.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fb;
+}
+#btn_3{
+    background-image: url("./images/12_15_22.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fb;
+}
+#btn_4{
+    background-image: url("./images/12_15_25.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fb;
+}
+#btn_5{
+    background-image: url("./images/12_15_27.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fb;
+}

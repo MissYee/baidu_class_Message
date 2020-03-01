@@ -1,0 +1,109 @@
+/*这个文件用来设置Menu部分的全部样式*/
+/*使元素不留空隙，这个很重要*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*left部分CSS样式代码*/
+#left{
+    width: 100px;
+    background-color: #1d2531;
+    position: fixed;
+}
+#area_1{
+    width:100px;
+    height: 345px;
+    margin: 0px 20px 0px 20px;
+    position: fixed;
+}
+#area_1 img{
+    padding-top: 20px;
+}
+#area_2{
+    width: 50px;
+    height: 16px;
+    margin-left: 25px;
+    position: fixed;
+}
+#area_2 img{
+    margin-right: 6px;
+}
+#nav{
+    width: 250px;
+    background-color: #222c3c;
+    margin-left: 100px;
+    position: fixed;
+}
+#top_menu{
+    color: grey;
+    font-size: 13px;
+    list-style: none;
+}
+#top_menu li{
+    margin-left: 25px;
+    margin-top: 16px;
+}
+#top_menu .set_btn{
+    float: right;
+    margin-right: 10px;
+}
+.in_menu {
+    color: #b7c0cd;
+}
+#top_menu li ul{
+    margin-left: -50px;
+}
+#top_menu li ul li{
+    list-style: none;
+    width: 250px;
+    margin-left: 50px;
+}
+#top_menu li ul li:hover{
+    color: white;
+    border-left: 3px solid #2399f1;
+}
+.images img{
+    float: left;
+    margin-right: 5px;
+}
+#progress{
+    color: #b7c0cd;
+    font-size: 13px;
+    position: fixed;
+    margin-left: 25px ;
+}
+#profile{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #e6e9ec;
+}
+#mes_title{
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 18px;
+}
+#profile div{
+   float: left;
+}
+#user_info{
+    width:235px;
+    height: 60px;
+    position: fixed;
+    padding: 15px;
+}
+#user_info img{
+    float: left;
+    margin-right: 15px;
+}
+.user_name{
+    margin-right: 30px;
+}
+#arrow{
+    margin-top: 20px;
+}
+.user_name p{
+    color: grey;
+}
+#name{
+    color: #2399f1;
+}
